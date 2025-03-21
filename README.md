@@ -67,7 +67,9 @@ speed-test-url: https://custom-domain/speedtest?bytes=1073741824
 ```
 ### 自建代理加速地址（可选）,worker2比worker增加了代理加速功能
 将 [worker2.js](./doc/cloudflare/worker2.js) 部署到 Cloudflare Workers
+
 访问 https://your-worker-url/raw/beck-8/subs-check/refs/heads/master/doc/cloudflare/worker.js 会代理到 https://raw.githubusercontent.com/beck-8/subs-check/refs/heads/master/doc/cloudflare/worker.js
+
 访问 https://your-worker-url/raw/username/repo/branch/path/to/file 会代理到 https://raw.githubusercontent.com/username/repo/branch/path/to/file
 
 
